@@ -11,17 +11,17 @@ Basys3 (Artix-7)와 Verilog HDL로 구현한 전자레인지 제어 프로젝트
 
 ## 시스템 블록 다이어그램
 
-![Microwave Oven Block Diagram](docs/images/block_diagram.png)
+![Microwave Oven Block Diagram](docs/images/block_diagram.svg)
 
-[블록 다이어그램 크게 보기](docs/images/block_diagram.png)
+[블록 다이어그램 크게 보기](docs/images/block_diagram.svg)
 
 ## FSM / 동작 흐름도
 
-![Microwave Oven FSM Diagram](docs/images/fsm_diagram.png)
+![Microwave Oven FSM Diagram](docs/images/fsm_diagram.svg)
 
-[FSM 다이어그램 크게 보기](docs/images/fsm_diagram.png)
+[FSM 다이어그램 크게 보기](docs/images/fsm_diagram.svg)
 
-> FSM 그림은 전체 동작을 설명하기 위한 개념도이며, 실제 RTL에 존재하는 상태 레지스터와 1:1 대응하는지는 소스 코드 확인이 필요합니다.
+> 이 그림은 **실제 RTL의 동작 흐름을 설명하기 위한 개념도**로, 별도 FSM 상태 레지스터를 구현했다는 의미는 아닙니다. 실제 구현에서는 Rotary 설정, FND 타이머와 Buzzer가 각각의 로직으로 동작하며, Servo는 별도로 제어됩니다.
 
 ## 핵심 구성
 
@@ -51,4 +51,4 @@ Basys3 (Artix-7)와 Verilog HDL로 구현한 전자레인지 제어 프로젝트
 **Basys3 · Verilog HDL · Vivado · KiCad**
 
 ---
-*첨부된 설계 이미지 두 장은 `docs/images/`에 업로드해야 위 이미지 링크가 표시됩니다.*
+*블록 다이어그램과 동작 흐름도는 `docs/images/`에 저장된 SVG 파일이며 README에 바로 표시됩니다.*
