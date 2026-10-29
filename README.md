@@ -36,9 +36,9 @@ Basys3 (Artix-7)와 Verilog HDL로 구현한 전자레인지 제어 프로젝트
 
 ## 동작 시연 영상
 
-현재 이 저장소에 연결된 **실제 시연 영상 URL은 아직 확인되지 않았습니다.**
+[![Microwave Oven Controller 동작 시연](https://img.youtube.com/vi/Dh0c_G7ZhPM/hqdefault.jpg)](https://youtu.be/Dh0c_G7ZhPM)
 
-영상 등록 후 이 자리에 링크를 추가할 예정입니다.
+▶ **[동작 시연 영상 보기 (YouTube)](https://youtu.be/Dh0c_G7ZhPM)**
 
 시연 순서: KEY 설정 → Rotary 시간 증감 → 카운트다운 → Buzzer 3회 → SG90 Door OPEN/CLOSE.
 
